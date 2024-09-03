@@ -6,7 +6,8 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
     background-color: black;
 }
 
@@ -62,77 +63,80 @@ nav button {
     padding: 0px 30px;
 }
 
-.hero> :first-child{
+.hero> :first-child {
     font-style: normal;
     font-size: 56px;
-    color: rgb(255,255,255);    
+    color: rgb(255, 255, 255);
     line-height: 70px;
     font-weight: 900;
     text-align: center;
 }
 
-.hero> :nth-child(2){
+.hero> :nth-child(2) {
     font-style: normal;
     font-size: 56px;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     line-height: 70px;
     font-weight: 900;
     text-align: center;
 }
 
-.hero> :nth-child(3){
+.hero> :nth-child(3) {
     font-style: normal;
     font-size: 20px;
-    color: rgb(255,255,255);
-    line-height:  normal;
+    color: rgb(255, 255, 255);
+    line-height: normal;
     font-weight: 500;
     /* margin: 30px 0px; */
     text-align: center;
 }
 
-.hero> :nth-child(4){
+.hero> :nth-child(4) {
     font-style: normal;
     font-size: 20px;
-    color: rgb(255,255,255);
-    line-height:  normal;
+    color: rgb(255, 255, 255);
+    line-height: normal;
     font-weight: 400;
     /* margin: 20px 0px; */
     text-align: center;
 }
 
-.seperation{
-    height:7px;
+.seperation {
+    height: 7px;
     background-color: rgb(82, 81, 81);
 }
-.hero-buttons{
+
+.hero-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.btn{
+
+.btn {
     padding: 3px 8px;
     font-weight: bold;
     background-color: white;
 }
 
-.btn-red{
+.btn-red {
     background-color: red;
     padding: 3px 24px;
     font-size: 20px;
     border-radius: 4px;
     color: white;
 }
-.main input{
+
+.main input {
     padding: 3px 24px;
     font-size: 24px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.2);
 }
 
-.btn-red-sm{
+.btn-red-sm {
     background-color: red;
-    color:white
+    color: white
 }
 
 
@@ -150,15 +154,20 @@ nav button {
 }
 
 .movies-container {
-    display: flex; /* Lay out the items in a row */
-    flex-wrap: nowrap; /* Prevent wrapping of items to the next line */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    width: 100%; /* You can set this to a specific value if needed */
-    max-width: 100%; /* Limit the container to its parent's width */
+    display: flex;
+    /* Lay out the items in a row */
+    flex-wrap: nowrap;
+    /* Prevent wrapping of items to the next line */
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    width: 100%;
+    /* You can set this to a specific value if needed */
+    max-width: 100%;
+    /* Limit the container to its parent's width */
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* border: 1px solid #ccc; */
-    background-color:black;
+    background-color: black;
 }
 
 /* .movies-container :nth-child(1){
@@ -170,119 +179,150 @@ nav button {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABS7dyld569XV52EmvaAs6GzTtMdIQU8Zt9-yGDnn0m6JopAB1BKIVRBbH4T94B-dR-NnG6B4xerGgKWih07ZQpH4Z2jhpOLwKb4JkVLW4q2bhRSiXBnPRDvdElbC47Lc-8G2fHz0Xql-L0_hL4elj5BfmRiaQ-KWorhWm-STZquEl2UOaAMxfuwSMfN_F6Dw5KMVEhIEI42e4jMw663a-YJZTrl-o-j4Q5T6eAUOEN-KPY3hqrIuffWhgXcMH_9KWh4HtzOWVAemc9i5ft5jGrUdjSS9HUJwxC5mhCK1T3L5YxPK4yVQXHaH0VUeja9zGdgj8kjeUbF7muN3zz3X4JE.webp?r=2b9);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(2) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfP1_7nLpY1Gio3tPeNx-UFsRg9nm5Kt9ebmWADCw9pwg7ey4dVXRbWJ0XBKyvzdLeADC1Ke-cw_DZBbTdgDBGZOWhOlYDgfh1FhpuQu5hAnpXH9zG2XMOfWrn0l81K4qpMJEXIZh8x_z6yMoaea61GZhw3ajO-WAg9FxRBWuXi0svaarVcp2ZnvUBNqwfFx9R6Tgd31HDRHxKeG__aOKMGMDEb-4_uqI3grMZFl41FEazHdhoTIhvESC3af7LkMfgxRig-0OZEpQ7_8gmSbSht9m4TmApDSFikMMKALypeQScwT_aQP-fblNIHrFI3xNoBW1modhb_z9sl9uHHuZ_L5DYrCyo5RJ6gKQk32tZBMfYozIAk.webp?r=ead);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(3) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQi1XiY993XKxb4gyLyIwMTIpZa9fS38MRT1ujwp31Y1Htl-cdeYTNZQ_SVNUabbYizhgANXtkMnHRaxVRI5pm660ke3HbzpCaZUVWTSlotBui_49rU8e18Y64nFNyEZ7SJO3IWGqjWDHNHeMSiJ_BgwGWi3cr7NFIjGAK7mmjRbPhCMbzI_zxnSD4e-BFhbB1gIS0xkX5hWRoYxOVLiDrs8d4BBmJ3XkhVdxV2fvDp9W7qvZjXJykDe_i3oF4VUg1tTD9ex-SxYfkV7t17vxeF0Kxi-brg_TKYh-iRCZaYuyzwkxRWz9NZlN3E0m9xUILoga3Hl4eb46zSr38jAR3b4QVx0ylMY1BHuC6khk-wrikROvI4.webp?r=787);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(4) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABS7dyld569XV52EmvaAs6GzTtMdIQU8Zt9-yGDnn0m6JopAB1BKIVRBbH4T94B-dR-NnG6B4xerGgKWih07ZQpH4Z2jhpOLwKb4JkVLW4q2bhRSiXBnPRDvdElbC47Lc-8G2fHz0Xql-L0_hL4elj5BfmRiaQ-KWorhWm-STZquEl2UOaAMxfuwSMfN_F6Dw5KMVEhIEI42e4jMw663a-YJZTrl-o-j4Q5T6eAUOEN-KPY3hqrIuffWhgXcMH_9KWh4HtzOWVAemc9i5ft5jGrUdjSS9HUJwxC5mhCK1T3L5YxPK4yVQXHaH0VUeja9zGdgj8kjeUbF7muN3zz3X4JE.webp?r=2b9);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(5) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfP1_7nLpY1Gio3tPeNx-UFsRg9nm5Kt9ebmWADCw9pwg7ey4dVXRbWJ0XBKyvzdLeADC1Ke-cw_DZBbTdgDBGZOWhOlYDgfh1FhpuQu5hAnpXH9zG2XMOfWrn0l81K4qpMJEXIZh8x_z6yMoaea61GZhw3ajO-WAg9FxRBWuXi0svaarVcp2ZnvUBNqwfFx9R6Tgd31HDRHxKeG__aOKMGMDEb-4_uqI3grMZFl41FEazHdhoTIhvESC3af7LkMfgxRig-0OZEpQ7_8gmSbSht9m4TmApDSFikMMKALypeQScwT_aQP-fblNIHrFI3xNoBW1modhb_z9sl9uHHuZ_L5DYrCyo5RJ6gKQk32tZBMfYozIAk.webp?r=ead);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(6) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQi1XiY993XKxb4gyLyIwMTIpZa9fS38MRT1ujwp31Y1Htl-cdeYTNZQ_SVNUabbYizhgANXtkMnHRaxVRI5pm660ke3HbzpCaZUVWTSlotBui_49rU8e18Y64nFNyEZ7SJO3IWGqjWDHNHeMSiJ_BgwGWi3cr7NFIjGAK7mmjRbPhCMbzI_zxnSD4e-BFhbB1gIS0xkX5hWRoYxOVLiDrs8d4BBmJ3XkhVdxV2fvDp9W7qvZjXJykDe_i3oF4VUg1tTD9ex-SxYfkV7t17vxeF0Kxi-brg_TKYh-iRCZaYuyzwkxRWz9NZlN3E0m9xUILoga3Hl4eb46zSr38jAR3b4QVx0ylMY1BHuC6khk-wrikROvI4.webp?r=787);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
+
 .movie-item:nth-child(7) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABS7dyld569XV52EmvaAs6GzTtMdIQU8Zt9-yGDnn0m6JopAB1BKIVRBbH4T94B-dR-NnG6B4xerGgKWih07ZQpH4Z2jhpOLwKb4JkVLW4q2bhRSiXBnPRDvdElbC47Lc-8G2fHz0Xql-L0_hL4elj5BfmRiaQ-KWorhWm-STZquEl2UOaAMxfuwSMfN_F6Dw5KMVEhIEI42e4jMw663a-YJZTrl-o-j4Q5T6eAUOEN-KPY3hqrIuffWhgXcMH_9KWh4HtzOWVAemc9i5ft5jGrUdjSS9HUJwxC5mhCK1T3L5YxPK4yVQXHaH0VUeja9zGdgj8kjeUbF7muN3zz3X4JE.webp?r=2b9);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(8) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfP1_7nLpY1Gio3tPeNx-UFsRg9nm5Kt9ebmWADCw9pwg7ey4dVXRbWJ0XBKyvzdLeADC1Ke-cw_DZBbTdgDBGZOWhOlYDgfh1FhpuQu5hAnpXH9zG2XMOfWrn0l81K4qpMJEXIZh8x_z6yMoaea61GZhw3ajO-WAg9FxRBWuXi0svaarVcp2ZnvUBNqwfFx9R6Tgd31HDRHxKeG__aOKMGMDEb-4_uqI3grMZFl41FEazHdhoTIhvESC3af7LkMfgxRig-0OZEpQ7_8gmSbSht9m4TmApDSFikMMKALypeQScwT_aQP-fblNIHrFI3xNoBW1modhb_z9sl9uHHuZ_L5DYrCyo5RJ6gKQk32tZBMfYozIAk.webp?r=ead);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(9) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQi1XiY993XKxb4gyLyIwMTIpZa9fS38MRT1ujwp31Y1Htl-cdeYTNZQ_SVNUabbYizhgANXtkMnHRaxVRI5pm660ke3HbzpCaZUVWTSlotBui_49rU8e18Y64nFNyEZ7SJO3IWGqjWDHNHeMSiJ_BgwGWi3cr7NFIjGAK7mmjRbPhCMbzI_zxnSD4e-BFhbB1gIS0xkX5hWRoYxOVLiDrs8d4BBmJ3XkhVdxV2fvDp9W7qvZjXJykDe_i3oF4VUg1tTD9ex-SxYfkV7t17vxeF0Kxi-brg_TKYh-iRCZaYuyzwkxRWz9NZlN3E0m9xUILoga3Hl4eb46zSr38jAR3b4QVx0ylMY1BHuC6khk-wrikROvI4.webp?r=787);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(10) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABS7dyld569XV52EmvaAs6GzTtMdIQU8Zt9-yGDnn0m6JopAB1BKIVRBbH4T94B-dR-NnG6B4xerGgKWih07ZQpH4Z2jhpOLwKb4JkVLW4q2bhRSiXBnPRDvdElbC47Lc-8G2fHz0Xql-L0_hL4elj5BfmRiaQ-KWorhWm-STZquEl2UOaAMxfuwSMfN_F6Dw5KMVEhIEI42e4jMw663a-YJZTrl-o-j4Q5T6eAUOEN-KPY3hqrIuffWhgXcMH_9KWh4HtzOWVAemc9i5ft5jGrUdjSS9HUJwxC5mhCK1T3L5YxPK4yVQXHaH0VUeja9zGdgj8kjeUbF7muN3zz3X4JE.webp?r=2b9);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(11) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfP1_7nLpY1Gio3tPeNx-UFsRg9nm5Kt9ebmWADCw9pwg7ey4dVXRbWJ0XBKyvzdLeADC1Ke-cw_DZBbTdgDBGZOWhOlYDgfh1FhpuQu5hAnpXH9zG2XMOfWrn0l81K4qpMJEXIZh8x_z6yMoaea61GZhw3ajO-WAg9FxRBWuXi0svaarVcp2ZnvUBNqwfFx9R6Tgd31HDRHxKeG__aOKMGMDEb-4_uqI3grMZFl41FEazHdhoTIhvESC3af7LkMfgxRig-0OZEpQ7_8gmSbSht9m4TmApDSFikMMKALypeQScwT_aQP-fblNIHrFI3xNoBW1modhb_z9sl9uHHuZ_L5DYrCyo5RJ6gKQk32tZBMfYozIAk.webp?r=ead);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(12) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQi1XiY993XKxb4gyLyIwMTIpZa9fS38MRT1ujwp31Y1Htl-cdeYTNZQ_SVNUabbYizhgANXtkMnHRaxVRI5pm660ke3HbzpCaZUVWTSlotBui_49rU8e18Y64nFNyEZ7SJO3IWGqjWDHNHeMSiJ_BgwGWi3cr7NFIjGAK7mmjRbPhCMbzI_zxnSD4e-BFhbB1gIS0xkX5hWRoYxOVLiDrs8d4BBmJ3XkhVdxV2fvDp9W7qvZjXJykDe_i3oF4VUg1tTD9ex-SxYfkV7t17vxeF0Kxi-brg_TKYh-iRCZaYuyzwkxRWz9NZlN3E0m9xUILoga3Hl4eb46zSr38jAR3b4QVx0ylMY1BHuC6khk-wrikROvI4.webp?r=787);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(13) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABS7dyld569XV52EmvaAs6GzTtMdIQU8Zt9-yGDnn0m6JopAB1BKIVRBbH4T94B-dR-NnG6B4xerGgKWih07ZQpH4Z2jhpOLwKb4JkVLW4q2bhRSiXBnPRDvdElbC47Lc-8G2fHz0Xql-L0_hL4elj5BfmRiaQ-KWorhWm-STZquEl2UOaAMxfuwSMfN_F6Dw5KMVEhIEI42e4jMw663a-YJZTrl-o-j4Q5T6eAUOEN-KPY3hqrIuffWhgXcMH_9KWh4HtzOWVAemc9i5ft5jGrUdjSS9HUJwxC5mhCK1T3L5YxPK4yVQXHaH0VUeja9zGdgj8kjeUbF7muN3zz3X4JE.webp?r=2b9);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(14) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfP1_7nLpY1Gio3tPeNx-UFsRg9nm5Kt9ebmWADCw9pwg7ey4dVXRbWJ0XBKyvzdLeADC1Ke-cw_DZBbTdgDBGZOWhOlYDgfh1FhpuQu5hAnpXH9zG2XMOfWrn0l81K4qpMJEXIZh8x_z6yMoaea61GZhw3ajO-WAg9FxRBWuXi0svaarVcp2ZnvUBNqwfFx9R6Tgd31HDRHxKeG__aOKMGMDEb-4_uqI3grMZFl41FEazHdhoTIhvESC3af7LkMfgxRig-0OZEpQ7_8gmSbSht9m4TmApDSFikMMKALypeQScwT_aQP-fblNIHrFI3xNoBW1modhb_z9sl9uHHuZ_L5DYrCyo5RJ6gKQk32tZBMfYozIAk.webp?r=ead);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 .movie-item:nth-child(15) {
     height: 196px;
     width: 140px;
     background-image: url(https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQi1XiY993XKxb4gyLyIwMTIpZa9fS38MRT1ujwp31Y1Htl-cdeYTNZQ_SVNUabbYizhgANXtkMnHRaxVRI5pm660ke3HbzpCaZUVWTSlotBui_49rU8e18Y64nFNyEZ7SJO3IWGqjWDHNHeMSiJ_BgwGWi3cr7NFIjGAK7mmjRbPhCMbzI_zxnSD4e-BFhbB1gIS0xkX5hWRoYxOVLiDrs8d4BBmJ3XkhVdxV2fvDp9W7qvZjXJykDe_i3oF4VUg1tTD9ex-SxYfkV7t17vxeF0Kxi-brg_TKYh-iRCZaYuyzwkxRWz9NZlN3E0m9xUILoga3Hl4eb46zSr38jAR3b4QVx0ylMY1BHuC6khk-wrikROvI4.webp?r=787);
-    background-size: cover; /* Ensure the background image covers the entire item */
-    background-position: center; /* Center the image within the element */
+    background-size: cover;
+    /* Ensure the background image covers the entire item */
+    background-position: center;
+    /* Center the image within the element */
 }
 
 
@@ -291,19 +331,21 @@ nav button {
 
 
 .movie-item {
-    flex: 0 0 auto; /* Prevent items from shrinking or growing */
+    flex: 0 0 auto;
+    /* Prevent items from shrinking or growing */
     margin: 10px;
     padding: 10px;
     /* background-color: #f9f9f9; */
     /* border: 1px solid #ddd; */
     border-radius: 5px;
     text-align: center;
-    width: 150px; /* Set a width for the items */
+    width: 150px;
+    /* Set a width for the items */
 }
 
 .movie-item:hover {
     /* background-color: #e9e9e9; */
-    background-color:black;
+    background-color: black;
 }
 
 /* Custom scrollbar (optional) */
@@ -321,7 +363,7 @@ nav button {
     background-color: #555;
 }
 
-.trend-drop{
+.trend-drop {
     width: 90%;
     margin: auto;
     padding-left: 30px;
@@ -333,21 +375,68 @@ nav button {
 }
 
 
-.two-dropdown{
+.two-dropdown {
     display: flex;
     gap: 20px;
 }
 
-.two-dropdown select{
+.two-dropdown select {
     padding: 10px 25px 10px 10px;
-    
+
 }
 
-.two-dropdown select option{
+.two-dropdown select option {
     font-size: 16px;
     line-height: 24px;
-    font-style: normal; 
-    font-weight:400;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.more-reason {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+
+.join-desc {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.join-item {
+    width: 24%;
+    height: 200px;
+    /* background-color: red; */
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.more-reason-head {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.join-item-1 {
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
 }
 
 
+.join-item-2{
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    font-weight: 400;
+}
