@@ -409,13 +409,14 @@ nav button {
 
 .join-item {
     width: 24%;
-    height: 200px;
+    height: 350px;
     /* background-color: red; */
     background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
     padding: 20px;
-    display: flex;
+    display: flex;  
     flex-direction: column;
-    gap: 20px;
+    gap: 100px;
+    border-radius: 5px;
 }
 
 .more-reason-head {
@@ -439,4 +440,17 @@ nav button {
     color: rgba(255, 255, 255, 0.7);
     font-size: 25px;
     font-weight: 400;
+}
+
+
+.item-logo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.item-para{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
