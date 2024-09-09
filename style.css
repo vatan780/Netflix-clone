@@ -413,7 +413,7 @@ nav button {
     /* background-color: red; */
     background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
     padding: 20px;
-    display: flex;  
+    display: flex;
     flex-direction: column;
     gap: 100px;
     border-radius: 5px;
@@ -434,7 +434,7 @@ nav button {
 }
 
 
-.join-item-2{
+.join-item-2 {
     margin: 0;
     padding: 0;
     color: rgba(255, 255, 255, 0.7);
@@ -443,14 +443,141 @@ nav button {
 }
 
 
-.item-logo{
+.item-logo {
     display: flex;
     justify-content: flex-end;
 }
 
 
-.item-para{
+.item-para {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+
+
+.asked-question {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.qus-dropdown {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(45, 45, 45);
+    padding: 25px 30px;
+}
+
+.qus-text {
+    font-size: 35px;
+    line-height: 37px;
+    font-weight: 600;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    /* transition: max-height 0.3s ease-out; */
+    padding: 0;
+}
+
+.toggle-icon::after {
+    content: "+";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"]:checked+label .toggle-icon::after {
+    content: "╳";
+}
+
+input[type="checkbox"]:checked+label+.content {
+    width: 90%;
+    max-height: fit-content;
+    padding: 5px 15px;
+    background-color: rgb(45, 45, 45);
+    margin: 2px auto;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+
+.qus-para-heading {
+    width: 90%;
+    margin: auto;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 37px;
+    margin-bottom: 15px;
+}
+
+.content-into {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 50px 0px;
+    gap: 20px;
+}
+
+.content-into p {
+    font-size: 30px;
+    list-style: 35px;
+    font-weight: 600;
+
+}
+
+.content-into input {
+    padding: 10px 40px
+}
+
+.contect-button-class {
+    padding: 10px 15px;
+    font-size: 20px;
+    line-height: 22px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+.footer {
+    width: 90%;
+    margin: 150px auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.footer-sec{
+    width: 24%;
+    
+}
+
+.footer-sec ul{
+    list-style-type: none;  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
